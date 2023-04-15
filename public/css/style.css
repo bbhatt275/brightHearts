@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    width: 96vw;
+    margin: auto;
+    margin-top: 2vw;
+    border-radius: 1vw;
+    display: grid;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    height: 10vw;
+    background: linear-gradient(162deg, rgba(239,50,217,1) 0%, rgba(137,255,253,1) 100%);
+    font-size: 6vw;
+    color: #fff;
+}
+.step2{
+    width: 96vw;
+    margin: auto;
+    margin-top: 2vw;
+    border-radius: 1vw;
+    display: grid;
+    height: 10vw;
+    background: linear-gradient(162deg, rgba(239,50,217,1) 0%, rgba(137,255,253,1) 100%);
+    font-size: 6vw;
+    color: #fff;
+    text-align: center;
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+}
+.main {
+    width: 96vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 25vw;
+}
+.main2 {
+    width: 96vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 30pw;
+}
+.heading {
+    font-size: 8vw;
+    font-weight: 1000;
+    padding: 2vw;
+}
+.paragraph {
+    color: #000;
+    font-size: 4vw;
+    padding: 2vw;
+    text-align: center;
+}
+.signup-button button {
+    width: 90vw;
+    margin: auto;
+    margin-top: 2vw;
+    border: none;
+    border-radius: 2vw;
+    color: #fff;
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+    height: 10vw;
+    font-size: 4vw;
+}
+.selectOption{
+    align-content: center;
+}
