@@ -1,0 +1,89 @@
+.selectuser-wrapper {
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: auto auto;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+}
+.selectuser-wrapper button {
+    width: 90%;
+    height: 10vw;
+    margin: auto;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 1vw;
+    border: 0.5vw solid black;      
+}
+
+.from-input {
+    width: 90%;
+    margin: 4vw 5% 0 5%;
+    background-color: #fff;
+    border-radius: 1vw;
+    font-size: 4vw;
+    padding: 4vw 0 4vw 2vw;    
+    height: 6vw; 
+}
+.form-button {
+    width: 90%;
+    height: 10vw;
+    margin: 5%;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 1vw;
+    border: 0.5vw solid black;      
+}
+.add_request {
+    background-color: lawngreen;
+    border-radius: 100%;
+    width: 15vw;
+    height: 15vw;
+    text-align: center;
+    display: grid;
+    vertical-align: middle;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    left: 80%;
+}
+
+.request_wrap {
+    width: 90%;
+    background-color: #fff;
+    border-radius: 1vw;
+    margin: auto;
+    border: solid 0.5vw #808080;
+    margin-top: 3vw;
+}
+.request_wrap_title {
+    font-weight: bold;
+    width: 100%;
+    background-color: #808080;
+    padding: 2vw;
+}
+.request_wrap_desc {
+    padding: 2vw;
+}
+
+.request_wrap_button {
+    width: 80%;
+    margin: 4vw auto 2vw auto;
+    background-color: lawngreen;
+    color: #fff;
+    padding: 2vw;
+    text-align: center;
+    font-size: 4vw;
+    border-radius: 0.5vw;
+}
+.request_wrap_button:focus {
+    background-color: rgb(87, 138, 36);
+}
+.request_wrap_button:hover {
+    background-color: rgb(87, 138, 36);
+}

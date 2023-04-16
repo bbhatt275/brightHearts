@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bright hearts</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+        <div class="heading">I am a</div>
+        <div class="selectuser-wrapper">
+            <div><button onclick="openMentor()" id="volunteer_form">Volunteer</button></div>
+            <div><button onclick="openStudent()" id="student_form">Student</button></div>
+        </div>
+            <div class="selectuser-form" id="selectuser-form" style="display: none;">
+                <form action="/choosen/mentor" method="post">
+                    <div class="paragraph" style="text-align: left; padding-left: 5%;">Enter your name</div>
+                    <input class="from-input" type="hidden" name="email" required="required" value="<%= email %>">
+                    <input class="from-input" type="text" name="name" required="required" placeholder="name">
+                    <div class="paragraph" style="text-align: left; padding-left: 5%;">I am an expert in...</div>
+                    <select class="from-input" style="height: 60px;" name="field" required="required">
+                        <option value="it">Information Technology</option>
+                        <option value="chemistry">Chemistry</option>
+                        <option value="physics">Physics</option>
+                        <option value="mathematics">Mathematics</option>
+                        <option value="programming">Programming</option>
+                    </select>
+                    <div class="paragraph" style="text-align: left; padding-left: 5%;">About Yourself</div>
+                    <input class="from-input" style="height: 100px; padding: 0 0 0 1vw;" type="textarea" name="desc" required="required" placeholder="description">
+                    <input class="form-button" type="submit" value="Create Profile"> 
+                </form>
+            </div>
+
+            <div class="selectuser-form" id="student-form" style="display: none;">
+                <form action="/choosen/student" method="post">
+                    <input type="hidden" name="email" value="<%= email %>">
+                    <input class="form-button" type="submit" value="sign up as student"> 
+                </form>
+            </div>
+    </body>
+    </html>
+    <script type="text/javascript">
+        function openMentor() {
+            document.getElementById('selectuser-form').style.display = 'block';
+            document.getElementById('volunteer_form').style.backgroundColor = 'black';
+            document.getElementById('volunteer_form').style.color = '#fff';
+            document.getElementById('student_form').style.backgroundColor = '#fff';
+            document.getElementById('student_form').style.color = '#000';
+            document.getElementById('student-form').style.display = 'none';
+        }
+        function openStudent() {
+            document.getElementById('selectuser-form').style.display = 'none';
+            document.getElementById('volunteer_form').style.backgroundColor = '#fff';
+            document.getElementById('volunteer_form').style.color = '#000';
+            document.getElementById('student_form').style.backgroundColor = '#000';
+            document.getElementById('student_form').style.color = '#fff';
+            document.getElementById('student-form').style.display = 'block';
+        }
+    </script>

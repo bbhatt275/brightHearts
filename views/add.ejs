@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bright hearts</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+<div class="heading">Fill the following details to get help from volunteers: </div>
+<form action="/student/request" method="post">
+    <div class="paragraph" style="text-align: left; padding-left: 5%;">Enter Title</div>
+    <input class="from-input" type="hidden" name="email" required="required" value="<%= email %>">
+    <input class="from-input" type="text" name="title" required="required" placeholder="Title">
+    <div class="parsagraph" style="text-align: left; padding-left: 5%;">Choose Field</div>
+    <select class="from-input" style="height: 60px;" name="field" required="required">
+        <option value="it">Information Technology</option>
+        <option value="chemistry">Chemistry</option>
+        <option value="physics">Physics</option>
+        <option value="mathematics">Mathematics</option>
+        <option value="programming">Programming</option>
+    </select>
+    <div class="paragraph" style="text-align: left; padding-left: 5%;">Description</div>
+    <input class="from-input" style="height: 100px; padding: 0 0 0 1vw;" type="textarea" name="desc" required="required" placeholder="description">
+    <input class="form-button" type="submit" value="submit"> 
+</form>

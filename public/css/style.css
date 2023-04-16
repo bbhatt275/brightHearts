@@ -4,20 +4,7 @@ body, html {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-.navbar{
-    width: 96vw;
-    margin: auto;
-    margin-top: 2vw;
-    border-radius: 1vw;
-    display: grid;
-    text-align: center;
-    vertical-align: middle;
-    align-items: center;
-    height: 10vw;
-    background: linear-gradient(162deg, rgba(239,50,217,1) 0%, rgba(137,255,253,1) 100%);
-    font-size: 6vw;
-    color: #fff;
-}
+
 .step2{
     width: 96vw;
     margin: auto;
@@ -30,11 +17,7 @@ body, html {
     color: #fff;
     text-align: center;
 }
-.navbar a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 800;
-}
+
 .main {
     width: 96vw;
     margin: auto;
@@ -72,4 +55,131 @@ body, html {
 }
 .selectOption{
     align-content: center;
+}
+
+#title{
+    background-color:#ef8172;
+    color: #fff;
+}
+h1{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+ 
+}
+.row{
+    text-align: center;
+    
+    
+}
+
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+body{
+    font-family: "Montserrat";
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: Limelight;
+    padding-left: 1rem;
+    font-size: 10rem;
+    
+    
+    
+}
+
+.nav-item{
+  padding-left: 1rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/*  Download Buttons */
+
+.continue-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+
+
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-size: 1.3rem;
+    
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+
+#feature{
+    padding: 7% 15%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials {
+    
+    text-align: center;
+    background-color:#ef8172;
+    color:#fff;
+
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* Press Section */
+
+#press {
+    padding-bottom: 3%;
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
 }

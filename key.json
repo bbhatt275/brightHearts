@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bright-hearts",
+  "private_key_id": "b27068d804510883de1494a8dc49768e163aeb4a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC47UXUB58nDoKv\niK+J38yPcy+co98WMWa2BidkvNwQ54Ud/Zq8GdLD5SGlIXT2wcTCT6MJNdVvAvOz\nPM9Y9Euv7pFlsd+5vcrdYLANvReFOLNqHqXkZEmGC+I600WuY+uJ094NlXt+BBqr\n4IDoLBgL1EWJr+mMMIbpFgDHACw3JrgZIgJOspM2HVKpBpixh/qMppGgv/0T7K72\ntP6loEEbHNQj2kNFeRV+3Rozohg6dhGQ959LNm7Of9KC16CRXyRhoFmvIB2az9Wr\nk1rYMXO7IM/U9EfKZwdFytzCiWbmVs60LFGaCdmvz44twRMgRgIWxS37x+7SYFiO\n0lJbm4JrAgMBAAECggEATIzj3/57slY+YN1rFN7Qtf0Pk37+ZRh0FRt9CSVoz5KX\nNy/48q6Z4b+i6tFrso3JnkoLCk//lyGYsfSVPJR8FErkYz17iE75gCR7HGTPLLWp\nB1/CekXNbbDTqFg2uxbftMFAZU0gvqyCQe4ATpuaJKNtWa65NfAMmMYj8jyvEPDB\nD7Y7XBdGiYqnzdz92UyUEY5t2oEmHRotVY8NmkIRAJBpKsssByuvfA/5YwNbnmhx\nUmMDB+uscAGKciEdue4Lw1BXStzWsOl/g1lp0oMN8j2Sg/krR2TQrvgPomVwvDAe\ngRbe1AdE9dwnnZdJ0qphG3omeh4yJELQS9Cr+U6aqQKBgQDdmoj7u1IXFzDbMfnO\n/zIz+Eth4bNX+CyKlcO6ljwL3ZhkP17lwJWJoDzE8uDIzku4KNOuhbum1ERW18wA\n6bme6+ocI8QrJZ+g3v8ZenklRaaOK0q33AfexNrbigZK/JnnNQDFC0yp0TRtdPho\nWuANQMVnPaeizH78aUho7QnChwKBgQDVoWCm6A2ZW0IZRBrSkGg9QBgK7RSCUs8m\nuxgYWQlEV47R1LhMPOHl86ywwf+YDBfH7W+PUoc5cZfyMUEEIhhr+mfPDTsmgHjy\niceRn5Plg5IV8FM3gb0w8RxBenGL8gisCTsBs7NRDl82Lr1eKEyaWgffifvVED3s\n/UiJ2dFl/QKBgHTwz8jHmRJGUqnZPZJWaQ+zv1Pv3sxVUmvvjFIyZY19aqW8Kz/i\n2Qa/YFIuOSC+fIa6RLqcJ+JpsYaCak0xCZsrs2cWGLcMK6ihBM1VLAjXMIVloxBT\nNHQCPdwMgjWgBzdTaQySYepbU+dPCqdHDWTxATrx9jya3Yglpuh37eaRAoGBAME5\nht9QcsRsC3wo4o3jubT03Qo859j8p4tjnGahWcVr4K0f11Z1lulTnrX9sn5HKddW\nhho/TjoB6apRLHpdkHNR+UUItaCcgUj2oACyMqZce+zGA67n9URoQONkqYEn+PoK\nG0ntzNoawrmSSwv4LVlK52YkOxi66RgK++pbjo/NAoGARjABz4L8yC9AeZ8EnDcC\n9jtNP10V63BkE+UiVBhaSWQuhRh/48V4svB6vg14nELMZSReyz36dU6CHZaXx+T9\nmePj6CiwWuCfGTM/ywbJb6zjOcUt115Jr/OTXwqssBeuCtaYRMpXhrju1Kop0jyb\n4jY5UxUERaKh1iee4S9rBM4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-4zo8h@bright-hearts.iam.gserviceaccount.com",
+  "client_id": "106171340824308844401",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-4zo8h%40bright-hearts.iam.gserviceaccount.com"
+}
