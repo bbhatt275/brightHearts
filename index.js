@@ -278,7 +278,7 @@ app.get('/confirmproject/:useremail/:contactemail/:projecttitle', (req, res) => 
     });
      
     let mailDetails = {
-        from: process.env.EMAIL,
+        from: "brighthearts@outlook.com",
         to: contactemail,
         subject: 'Someone applied to volunteer you with your project',
         html: 'Hello, We have found a volunteer to help you. with ' + title + 'You can email him right away to continue ' + useremail + '.'
