@@ -160,8 +160,13 @@ app.post("/choosen/student", (req, res) => {
   db.collection("usersdata").doc(email).update({
     type: 'student',
   })
-.then(() => {
-    res.render('student_dashboard', {email});
+.then( async () => {
+  const data = await db.collection('usersdata').doc(user.email).get();
+  var UserSession = data.data();
+
+    res.render('student_dashboard', {
+      user: UserSession
+    });
 })
 .catch((error) => {
     console.error("Error updating document: ", error);
@@ -191,7 +196,7 @@ app.post("/choosen/mentor", async (req, res) => {
   var field = UserSession.field
   console.log(field)
 
-  const Arr = db.collection('fields').doc(field).get();
+  const Arr = await db.collection('fields').doc(field).get();
   const fieldArr = Arr.data();
 
   console.log(fieldArr)
@@ -246,7 +251,6 @@ app.post("/student/request", (req, res) => {
       user: usersession
     })
   })
-      
 })
 .catch((error) => {
     console.error("Error updating document: ", error);
@@ -264,8 +268,8 @@ app.get('/confirmproject/:useremail/:contactemail/:projecttitle', (req, res) => 
       
           service: "hotmail",
           auth: {
-            user: process.env.EMAIL,
-            pass: process.env.PASSWORD
+            user: "brighthearts@outlook.com",
+            pass: 'ReactExpressNode@234'
           },
         
         tls: {

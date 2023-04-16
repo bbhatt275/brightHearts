@@ -35,12 +35,17 @@
 <div class="main">
     <div class="heading">Your requests</div>
     <% console.log(user.requests) %>
-    <% for(i=0; i<user.requests.length; i++) { %>
-        <div class="request_wrap">
-            <div class="request_wrap_title"><%- user.requests[i].title %></div>
-            <div class="request_wrap_desc"><%- user.requests[i].desc %></div>
-        </div>
-    <% } %>
+    <% 
+    if(user.requests == 'undefined' || user.requests == null) { %>
+        <div class="paragraph">You have not posted any requests</div>
+    <% }  else {
+        for(i=0; i<user.requests.length; i++) { %>
+            <div class="request_wrap">
+                <div class="request_wrap_title"><%- user.requests[i].title %></div>
+                <div class="request_wrap_desc"><%- user.requests[i].desc %></div>
+            </div>
+            <% } %>
+   <% } %>
     
 </div>
 <a href="/add/request/<%= user.email %>" style="text-decoration: none; color: #fff; font-size: 6vw; font-weight: 1000;">
