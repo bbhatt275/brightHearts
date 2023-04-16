@@ -170,7 +170,7 @@ app.post("/choosen/student", (req, res) => {
 
 
 //get mentor details
-app.post("/choosen/mentor", (req, res) => {
+app.post("/choosen/mentor", async (req, res) => {
 
   var email = req.body.email
   var desc = req.body.desc
@@ -185,8 +185,21 @@ app.post("/choosen/mentor", (req, res) => {
     desc: desc,
     field: field
   })
-.then(() => {
-    res.render('mentor_dashboard', {email});
+.then( async () => {
+  const data = db.collection('usersdata').doc(user.email).get();
+  var UserSession = (await data).data();
+  var field = UserSession.field
+  console.log(field)
+
+  const Arr = db.collection('fields').doc(field).get();
+  const fieldArr = Arr.data();
+
+  console.log(fieldArr)
+
+  res.render('mentor_dashboard', {
+    user: UserSession,
+    requestArr: fieldArr.requests
+  })
 })
 .catch((error) => {
     console.error("Error updating document: ", error);
