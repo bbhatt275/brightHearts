@@ -1,6 +1,7 @@
 require('dotenv').config()
 
 var express = require('express');   //import express
+var ejs = require('ejs')
 var app = express();                //import express function
 const session = require('express-session');
 const nodemailer = require('nodemailer');
